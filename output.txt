@@ -1,0 +1,471 @@
+		~~~~Huffman Coding Algorithm~~~~
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: g
+
+Please enter a valid file name to be encoded: in.txt
+
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: a
+
+Charactor: x
+Frequency: 1
+
+Charactor: q
+Frequency: 1
+
+Charactor: R
+Frequency: 1
+
+Charactor: D
+Frequency: 1
+
+Charactor: 9
+Frequency: 1
+
+Charactor: 5
+Frequency: 1
+
+Charactor: 2
+Frequency: 1
+
+Charactor: 1
+Frequency: 1
+
+Charactor: /
+Frequency: 1
+
+Charactor: 
+Frequency: 1
+
+Charactor: I
+Frequency: 2
+
+Charactor: C
+Frequency: 2
+
+Charactor: -
+Frequency: 2
+
+Charactor: )
+Frequency: 2
+
+Charactor: (
+Frequency: 2
+
+Charactor: '
+Frequency: 2
+
+Charactor: "
+Frequency: 2
+
+Charactor: M
+Frequency: 3
+
+Charactor: A
+Frequency: 3
+
+Charactor: T
+Frequency: 4
+
+Charactor: v
+Frequency: 7
+
+Charactor: H
+Frequency: 7
+
+Charactor: ,
+Frequency: 7
+
+Charactor: .
+Frequency: 8
+
+Charactor: w
+Frequency: 9
+
+Charactor: '\n'
+Frequency: 12
+
+Charactor: y
+Frequency: 18
+
+Charactor: b
+Frequency: 18
+
+Charactor: g
+Frequency: 20
+
+Charactor: p
+Frequency: 23
+
+Charactor: u
+Frequency: 28
+
+Charactor: h
+Frequency: 35
+
+Charactor: f
+Frequency: 35
+
+Charactor: l
+Frequency: 37
+
+Charactor: d
+Frequency: 37
+
+Charactor: c
+Frequency: 37
+
+Charactor: m
+Frequency: 44
+
+Charactor: r
+Frequency: 47
+
+Charactor: t
+Frequency: 57
+
+Charactor: i
+Frequency: 57
+
+Charactor: s
+Frequency: 59
+
+Charactor: n
+Frequency: 61
+
+Charactor: a
+Frequency: 64
+
+Charactor: o
+Frequency: 78
+
+Charactor: e
+Frequency: 100
+
+Charactor: ' '
+Frequency: 161
+
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: b
+
+                                  7) Frequency: 28
+                             6) Frequency: 51
+                                  7) Frequency: 23
+                        5) Frequency: 98
+                             6) Frequency: 47
+                   4) Frequency: 184
+                             6) Frequency: 44
+                        5) Frequency: 86
+                                       8) Frequency: 12
+                                  7) Frequency: 22
+                                                10) Frequency: 3
+                                            9) Frequency: 6
+                                                10) Frequency: 3
+                                       8) Frequency: 10
+                                            9) Frequency: 4
+                             6) Frequency: 42
+                                  7) Frequency: 20
+              3) Frequency: 345
+                   4) Frequency: 161
+         2) Frequency: 640
+                        5) Frequency: 78
+                   4) Frequency: 152
+                             6) Frequency: 37
+                        5) Frequency: 74
+                             6) Frequency: 37
+              3) Frequency: 295
+                             6) Frequency: 37
+                        5) Frequency: 73
+                                  7) Frequency: 18
+                             6) Frequency: 36
+                                  7) Frequency: 18
+                   4) Frequency: 143
+                             6) Frequency: 35
+                        5) Frequency: 70
+                             6) Frequency: 35
+    1) Frequency: 1100
+                        5) Frequency: 64
+                   4) Frequency: 126
+                                       8) Frequency: 9
+                                  7) Frequency: 17
+                                       8) Frequency: 8
+                             6) Frequency: 33
+                                                10) Frequency: 2
+                                            9) Frequency: 4
+                                                10) Frequency: 2
+                                       8) Frequency: 8
+                                                10) Frequency: 2
+                                            9) Frequency: 4
+                                                10) Frequency: 2
+                                  7) Frequency: 16
+                                                10) Frequency: 2
+                                            9) Frequency: 4
+                                                     11) Frequency: 1
+                                                10) Frequency: 2
+                                                     11) Frequency: 1
+                                       8) Frequency: 8
+                                                10) Frequency: 2
+                                            9) Frequency: 4
+                                                10) Frequency: 2
+                        5) Frequency: 62
+                                                     11) Frequency: 1
+                                                10) Frequency: 2
+                                                     11) Frequency: 1
+                                            9) Frequency: 4
+                                                     11) Frequency: 1
+                                                10) Frequency: 2
+                                                     11) Frequency: 1
+                                       8) Frequency: 8
+                                                     11) Frequency: 1
+                                                10) Frequency: 2
+                                                     11) Frequency: 1
+                                            9) Frequency: 4
+                                                     11) Frequency: 1
+                                                10) Frequency: 2
+                                                     11) Frequency: 1
+                                  7) Frequency: 15
+                                       8) Frequency: 7
+                             6) Frequency: 29
+                                       8) Frequency: 7
+                                  7) Frequency: 14
+                                       8) Frequency: 7
+              3) Frequency: 246
+                        5) Frequency: 61
+                   4) Frequency: 120
+                        5) Frequency: 59
+         2) Frequency: 460
+                        5) Frequency: 57
+                   4) Frequency: 114
+                        5) Frequency: 57
+              3) Frequency: 214
+                   4) Frequency: 100
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: c
+
+Character: u Huffman Code: 111111
+Character: p Huffman Code: 011111
+Character: r Huffman Code: 01111
+Character: m Huffman Code: 10111
+Character: '\n'  Huffman Code: 1100111
+Character: A Huffman Code: 110100111
+Character: M Huffman Code: 010100111
+Character: T Huffman Code: 00100111
+Character: g Huffman Code: 000111
+Character: ' '  Huffman Code: 011
+Character: o Huffman Code: 1101
+Character: c Huffman Code: 10101
+Character: d Huffman Code: 00101
+Character: l Huffman Code: 11001
+Character: b Huffman Code: 101001
+Character: y Huffman Code: 001001
+Character: f Huffman Code: 10001
+Character: h Huffman Code: 00001
+Character: a Huffman Code: 1110
+Character: w Huffman Code: 1110110
+Character: . Huffman Code: 0110110
+Character: ( Huffman Code: 111010110
+Character: ) Huffman Code: 011010110
+Character: " Huffman Code: 101010110
+Character: ' Huffman Code: 001010110
+Character: I Huffman Code: 110010110
+Character: q Huffman Code: 1010010110
+Character: x Huffman Code: 0010010110
+Character: - Huffman Code: 100010110
+Character: C Huffman Code: 000010110
+Character: 1 Huffman Code: 1111100110
+Character: 2 Huffman Code: 0111100110
+Character:  Huffman Code: 1011100110
+Character: / Huffman Code: 0011100110
+Character: D Huffman Code: 1101100110
+Character: R Huffman Code: 0101100110
+Character: 5 Huffman Code: 1001100110
+Character: 9 Huffman Code: 0001100110
+Character: , Huffman Code: 0100110
+Character: H Huffman Code: 1000110
+Character: v Huffman Code: 0000110
+Character: n Huffman Code: 1010
+Character: s Huffman Code: 0010
+Character: i Huffman Code: 1100
+Character: t Huffman Code: 0100
+Character: e Huffman Code: 000
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: d
+
+
+Please enter a character to be encoded: c
+
+The huffman code: 10101
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: e
+
+
+Please enter a word to be encoded: hi
+
+The huffman code: 000011100
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: f
+
+
+Please enter an encoded word to be decoded: 000011100
+DECODED: hi
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: f
+
+
+Please enter an encoded word to be decoded: 001100
+DECODED: i
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: h
+
+Please enter a valid file name to decode: in_encoded.txt
+
+In computer science and information theory, a Huffman code is a particular type of
+optimal prefix code that is commonly used for lossless data compression. The process of
+finding and/or using such a code proceeds by means of Huffman coding, an algorithm
+developed by David A. Huffman while he was a student at MIT, and published in the
+1952 paper "A Method for the Construction of Minimum-Redundancy Codes".The output from Huffman's algorithm can be viewed as a variable-length code table for
+encoding a source symbol (such as a character in a file). The algorithm derives this table
+from the estimated probability or frequency of occurrence (weight) for each possible
+value of the source symbol. As in other entropy encoding methods, more common
+symbols are generally represented using fewer bits than less common symbols.
+Huffman's method can be efficiently implemented, finding a code in time linear to the
+number of input weights if these weights are sorted. However, although optimal among
+methods encoding symbols separately, Huffman coding is not always optimal among all
+compression methods.
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: i
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+
+A - Print The Character Weights
+B - Print Indented Tree(Right-Root-Left)
+C - Print the Huffman Codes For All Characters In The List
+D - Enter A Character / Print Its Huffman Code
+E - Enter A Word / Print Its ASCII Binary Representation And Its Huffman Code
+F - Enter An Encoded Word / Print The Decoded Word
+G - Enter The Name Of A Text File / It Will Be Encoded And Saved Into Another File
+H - Enter The Name Of A Encoded File / It Will Be Decoded And Saved Into Another File
+I - Help / Menu Will Be Displayed
+Q - Quit
+
+Please Enter A Valid Option: q
